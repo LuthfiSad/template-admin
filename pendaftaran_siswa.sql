@@ -60,9 +60,9 @@ CREATE TABLE `users` (
 -- Dumping data for table `users`
 --
 
-INSERT INTO `users` (`username`, `password`, `id_session`, `level`) VALUES
-('luthfi', '21232f297a57a5a743894a0e4a801fc3', 'e71umgt9nikmeq3aac0rtikjfn', 'Administrator'),
-('sadli', 'aa08769cdcb26674c6706093503ff0a3', '7mc17j7hl5bdaooun42s65eug0', 'Member');
+INSERT INTO `users` (`id`, `username`, `password`, `id_session`, `level`) VALUES
+(1, 'luthfi', '21232f297a57a5a743894a0e4a801fc3', 'b93b837sv391qk1e70raafb5nv', 'Administrator'),
+(2, 'sadli', 'aa08769cdcb26674c6706093503ff0a3', 'm4ncpusl4838l1rjubjttq1o7b', 'Member');
 
 --
 -- Indexes for dumped tables
